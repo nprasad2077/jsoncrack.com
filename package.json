@@ -11,7 +11,7 @@
     "url": "https://github.com/AykutSarac/jsoncrack.com/issues"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 9292",
     "build": "next build",
     "postbuild": "next-sitemap --config next-sitemap.config.js",
     "start": "next start",

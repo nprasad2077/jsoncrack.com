@@ -27,6 +27,11 @@ const config = {
 
     return config;
   },
+  // Add server configuration
+  server: {
+    port: 9292,
+    host: '0.0.0.0'
+  }
 };
 
 const configExport = () => {
